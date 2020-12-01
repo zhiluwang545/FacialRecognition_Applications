@@ -1,0 +1,89 @@
+/* Custom.scss */
+
+/* Import Adobe Fonts */
+@import url("https://use.typekit.net/qde7zvv.css");
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Stardos+Stencil&display=swap');
+
+/* Bootstrap variable overrides */
+
+	/* Overall Colors */
+	$primary: #FFC107;
+
+	/* Background Color */
+	$body-bg: #eaeaea;
+
+	/* Jumbotron Background Color */
+	$jumbotron-bg: white;
+
+	/* Text Colors */
+	$body-color: #111; // Body font color
+	$headings-color: $primary; // Font color for all headings (H1, H2, H3, H4, H5, H6)
+
+	/* Header Fonts */
+	$headings-font-family: 'Stardos Stencil', cursive; // Google Fonts
+
+	/* Body Fonts */
+	$font-family-base: stratos-lights, sans-serif; // Adobe Fonts
+	$font-weight-base: 300; // Font weight for body, as specified in Adobe Fonts
+
+	/* Border radius */
+	$border-radius: 0;
+	$border-radius-lg: 0;
+	$border-radius-sm: 0;
+
+	/* Jumbotron padding */
+	$jumbotron-padding: 0;
+
+
+/* Import Bootstrap */
+@import "bootstrap-4.0.0/scss/bootstrap";
+
+/* Non-SASS CSS */	// Place this section AFTER the Bootstrap scss import so these styles override Bootstrap styles
+.card { margin-bottom: 30px; } // bottom margin for each card
+.jumbotron { margin: 50px 0; } // top/bottom margin for the "jumbotron" (large element with "Hello World")
+
+#more-cats { margin-bottom: 50px; }
+
+
+/* Mapbox Map */
+#map {
+	height: 400px;
+}
+
+/* Bootstrap variable overrides */
+
+	/* Overall Colors */
+	$primary: #FFC107;
+
+	/* Background Color */
+	$body-bg: #eaeaea;
+
+	/* Jumbotron Background Color */
+	$jumbotron-bg: white;
+
+	/* Text Colors */
+	$body-color: #111; // Body font color
+	$headings-color: $primary; // Font color for all headings (H1, H2, H3, H4, H5, H6)
+
+	/* Header Fonts */
+	$headings-font-family: 'Stardos Stencil', cursive; // Google Fonts
+
+	/* Body Fonts */
+	$font-family-base: stratos-lights, sans-serif; // Adobe Fonts
+	$font-weight-base: 300; // Font weight for body, as specified in Adobe Fonts
+
+	/* Border radius */
+	$border-radius: 0;
+	$border-radius-lg: 0;
+	$border-radius-sm: 0;
+
+	/* Jumbotron padding */
+	$jumbotron-padding: 0;
+
+
+
+
+
+

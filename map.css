@@ -1,0 +1,235 @@
+body {
+margin: 0;
+padding: 0;
+}
+/*.jumbotron {
+	position:absolute;
+	height:;
+}
+*/
+#map {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+width: 100%;
+height: 600px;
+}
+
+/* Buttons */
+button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.button-default {
+    background-color: #ffd000;
+    border-radius: 0;
+    color: #00394d;
+    padding: 7px 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+}
+
+.button-default:hover {
+    background-color: #f00;
+}
+
+/* Modal */
+#screen {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1;
+    display: none;
+}
+
+.modal {
+    display: none;
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 2;
+    padding: 30px;
+}
+
+.modal>.close-button {
+    color: #cccccc;
+    position:absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    background: none !important;
+    border: none !important;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.modal>.close-button:hover {
+    color: #bbbbbb !important;
+}
+
+
+/* Mapbox popups */
+.mapboxgl-popup-content {
+    background:rgba(0, 57, 77, 0.7);
+    border: 1px solid #0d6e91;
+    border-radius: 0;
+}
+
+.mapboxgl-popup-tip {
+    border-top-color: rgba(0, 57, 77, 0.75) !important;
+}
+
+.mapboxgl-popup-close-button {
+    font-size: large;
+    font-style: unset;
+    color: white;
+    padding: 0px 6px;
+    font-weight: 300;
+}
+
+.mapboxgl-ctrl.mapboxgl-ctrl-attrib { background: none; }
+
+.row{
+    position: relative;
+    top: 50px;
+}
+
+.picture:{
+    position: 100px, 50px;
+}
+
+<!--timeline-->
+
+*{
+    margin: 0;
+    font-family: Î¢ÈíÑÅºÚ ;
+    padding: 0;
+}
+#timeLine{
+    width: 1500px;
+    margin: 50px auto;
+    /*border:  solid 1px #434343;*/
+    /*background: rgba(500,500,500,0.9);*/
+    overflow: hidden;
+}
+#yearList{
+    width: 100%;
+    list-style: none;
+    position: relative;
+    /*left: 457px;*/
+    margin-left: 457px;
+}
+#yearList:after,.container-li:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#yearList li{
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    font-size: 21px;
+    padding: 10px 20px;
+}
+.year-dot{
+    width: 10px; height: 10px; border-radius: 5px;
+    background-color: #002f21;
+    margin: 10px auto;
+    display: block;
+}
+.dotted-line{
+    border-bottom: dashed 2px  #7b7d7b;
+    position: relative;
+    top: -26px;
+    z-index: -1;
+}
+#cList{
+    width: 100%;
+    position: relative;
+}
+#btnLeft{
+    width: 50px; height: 130px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 180px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 120px;
+    background: rgba(0,0,0,0.3);
+}
+#btnRight{
+    width: 50px; height: 130px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 180px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 120px;
+    background: rgba(0,0,0,0.3);
+}
+#btnLeft:hover,#btnRight:hover{
+    background: rgba(0,0,0,0.5);
+}
+#cUl{
+    width: 1200px;
+    list-style: none;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    left: 0px;
+}
+#cUl li{
+    width: 1200px;
+  position: absolute;  left: 0;
+}
+.li-tit{
+    display:inline-block;
+    color: #fff;
+    background-color: #002f21;
+    padding: 10px 20px;
+    margin: 30px auto 10px;
+}
+.container-li{
+    width: 100%;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: solid 0px #434343;
+}
+.c-li-left{
+    width: 80%;
+    float: left;
+}
+.c-li-right{
+    width: 20%;
+    float: right;
+}
+.year-active{
+    color: red;
+}
+.year-active i{
+    background-color: red;
+}
+
+
